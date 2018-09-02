@@ -1,0 +1,14 @@
+#include " stdafx.h "
+#include<stdlib.h>
+#include<iosstream>
+using namespace std;
+int Funcl(int *a){
+a= a+3;
+cout<<"a="<<a<<endl;
+}
+int main(void){
+int n=10;
+Funcl(&n);
+cout<<"n="<<n<<endl;
+system("pause");
+}
